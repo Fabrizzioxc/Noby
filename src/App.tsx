@@ -1,9 +1,11 @@
+import { Button } from "@/components/ui/button"
 
-
-export default function App() {
+function App() {
   return (
-    <div className="text-8xl text-red-900 font-bold underline">
-      Hola mundo!
+    <div className="flex min-h-svh flex-col items-center justify-center">
+      <Button>Click me</Button>
     </div>
   )
 }
+
+export default App
